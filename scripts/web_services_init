@@ -1,0 +1,6 @@
+# Stop and start MySQL
+mysql.server restart
+
+# Stop and start Apache
+sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.httpd24.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.httpd24.plist
