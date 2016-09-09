@@ -117,5 +117,3 @@ source "${ZDOTDIR:-$HOME}/.zprezto/aliases"
 
 # Add scripts folder to path
 export PATH=${ZDOTDIR:-$HOME}/.zprezto/scripts:$PATH
-
-source ~/.iterm2_shell_integration.`basename $SHELL`
